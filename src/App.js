@@ -1,5 +1,5 @@
 import './App.css';
-import Contatore from './componente/Contatore';
+import Contatore from "./componente/Contatore";
 
 function App(){
     return <div>

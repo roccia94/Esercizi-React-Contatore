@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {useState} from "react";
 import ShowCounterData from "./ShowCounterData";
 
-function Contatore (props){
+const Contatore  = (props) => {
     const { valueStart } = props;
     const [ counter, setCounter] = useState(valueStart);
     const increment = () => {

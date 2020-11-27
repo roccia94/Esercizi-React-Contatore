@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-function ShowCounterData (props){
+const ShowCounterData = (props) => {
     const { counterValue } = props;
 
     const test = 100 - counterValue;
